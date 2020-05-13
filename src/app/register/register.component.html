@@ -1,0 +1,22 @@
+<div class="container" style = "height: 500px; background-color: black; background-size: cover;">
+    <div class="row">
+        <div class="col-md-6" style="height:500px; background-image: url('assets/cl14.jpg'); background-size: cover;"></div>
+        <div class="col-md-6">
+            <h1>REGISTER</h1>
+            <form *ngFor="let x of arr">
+                <div *ngIf="x == 'password'">
+               <P>{{ x }}</P>
+            <input type="password">
+        </div>
+        <div *ngIf="x!= 'password'">
+            <P>{{ x }}</P>
+         <input type="text">
+     </div>
+            </form>
+            <br><br>
+            <button>sign up</button>
+        </div>
+        </div>
+
+    </div>
+

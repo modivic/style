@@ -1,0 +1,22 @@
+<div class="container" style = "height: 500px; background-color: black; background-size: cover;">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>log in</h1>
+            <br><br>
+            <p>email</p>
+            <input (keyup)="tt=$event.target.value;hello(tt)" type="text">
+            <br>
+            <p>{{ t }}</p>
+            <br><br>
+            <p>password</p>
+            <input (keyup)="tt2=$event.target.value;hello2(tt2)" type="password">
+            <br>
+            <p>{{ t2 }}</p>
+            <br><br>
+            <button>log in</button>
+        </div>
+        <div class="col-md-6" style="height:500px; background-image: url('assets/cl11.jpg'); background-size: cover;">
+        </div>
+
+    </div>
+</div>
